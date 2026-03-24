@@ -28,7 +28,7 @@ todo.append(nouvelle_tache)
 print("Tâche", + nom, "ajoutée avec succès !")
 return todo
 
-#FONCTION 1 : elimine_tache
+# FONCTION 2: elimine_tache
 def elimine_tache(todo: list) -> list:
     
 	"""
@@ -64,3 +64,14 @@ if tache_trouvee:
     else:
         print("Aucune tâche avec le nom ", nom_a_supprimer, "n'a été trouvée.")
 return nouveau_todo
+
+# FONCTION 3: termine_tache
+def termine_tache(todo: list) -> list:
+	
+	""" 
+	demande a l'utilisateur le nom de la tache, pour qu'elle change
+	son etat a True (tache terminer).
+	:param todo: le tab avec toutes les taches
+	:type todo: list
+	:return: le tab avec les taches mis a jours (etat = True, pour les taches terminer)
+	:rtype: list
