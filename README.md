@@ -75,3 +75,4 @@ def termine_tache(todo: list) -> list:
 	:type todo: list
 	:return: le tab avec les taches mis a jours (etat = True, pour les taches terminer)
 	:rtype: list
+	"""
