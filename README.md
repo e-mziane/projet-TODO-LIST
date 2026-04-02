@@ -76,3 +76,16 @@ def termine_tache(todo: list) -> list:
 	:return: le tab avec les taches mis a jours (etat = True, pour les taches terminer)
 	:rtype: list
 	"""
+nom_termine: str = input("entrez le nom de la tache a marquer comme terminée :")
+tache_trouve: bool = False
+# on parcourt chaque tache du tab
+i: int = 0
+while i < len (todo)
+	# si le nom de la tache = au nom recherché 
+	if todo[i]["nom"] = nom_termine:
+	# on met l'etat a TRUE
+	todo[i]["etat"] = True
+	tache_trouve = True
+	print("tache", nom_termine, "est marqué comme terminé")
+i = i + 1
+
